@@ -7,6 +7,7 @@ import Heading from "@/components/Heading";
 import Hero from "@/components/Hero";
 import MoreServices from "@/components/MoreServices";
 import Navbar from "@/components/Navbar";
+import Pricing from "@/components/Pricing";
 import ProcessServer from "@/components/ProcessServer";
 import Promise from "@/components/Promise";
 import RequestCallback from "@/components/RequestCallback";
@@ -79,6 +80,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <Pricing/>
       <Testimonials/>
       <Sliderss />
       <RequestCallback/>

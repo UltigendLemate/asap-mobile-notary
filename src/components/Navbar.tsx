@@ -20,6 +20,10 @@ const Navbar = () => {
       link: "#whyus",
     },
     {
+      title: "Pricing",
+      link: "#pricing",
+    },
+    {
       title: "Testimonials",
       link: "#testimonials",
     },
