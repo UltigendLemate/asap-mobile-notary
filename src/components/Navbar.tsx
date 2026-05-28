@@ -52,7 +52,7 @@ const Navbar = () => {
       </div>
       <div className="flex items-center justify-between  py-4 px-5">
         <div>
-          <img src="./logo4.jpg" alt="" className="h-[5.5rem] -ml-6" />
+          <img src="./notary-logo.png" alt="" className="h-28 w-auto" />
         </div>
         <div className="hidden md:flex h-full justify-end items-center gap-6 text-lg">
           {items.map((item, index) => (

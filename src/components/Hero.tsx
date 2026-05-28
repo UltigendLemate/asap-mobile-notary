@@ -12,6 +12,7 @@ const Hero = () => {
   const items = [
     {
       img: "/image.jpg",
+      eyebrow: "If it isn't documented, it didn't happen.",
       title: "SECURE YOUR TRANSACTIONS WITH CONFIDENCE",
       desc: "Our certified notaries ensure the legitimacy and authenticity of your important documents.",
     },
@@ -43,6 +44,14 @@ const Hero = () => {
               >
                 <div className="absolute h-full w-full bg-black/50"></div>
                 <div className="text-white md:text-center z-10 md:max-w-screen-xl space-y-4 p-5 absolute top-1/2 -translate-y-1/3">
+                  {item.eyebrow && (
+                    <p
+                      className={`!italic text-sm md:text-lg text-white ${mont.className}`}
+                      data-swiper-parallax="-300"
+                    >
+                      &ldquo;{item.eyebrow}&rdquo;
+                    </p>
+                  )}
                   <h1 className={`text-3xl md:text-6xl font-bold ${mont.className}`} data-swiper-parallax="-500">
                     {item.title}
                   </h1>
