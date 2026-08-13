@@ -116,8 +116,8 @@ const Navbar = () => {
         )}
       </div>
       <div className="bg-amber-400 text-amber-950 font-semibold py-2 w-full px-5 text-xs md:text-sm text-center border-t border-amber-500">
-        <span className="font-bold uppercase">Appointment required:</span>{" "}
-        Do not visit without calling first — walk-ins are not accepted.
+        We&apos;re open 24/7 but please call the notary to check availability
+        before visiting.
       </div>
     </nav>
   );
