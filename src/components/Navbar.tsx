@@ -34,7 +34,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="absolute bg-white z-20 border-b border-gray-600  text-xl w-full">
+    <nav className="bg-white z-20 border-b border-gray-600  text-xl w-full">
       <div className="bg-purple-600 font-semibold py-2.5 w-full px-5 text-xs text-white text-center md:text-left">
         <PhoneIcon
           className="inline mr-1 text-white stroke-[2px]"
@@ -52,7 +52,7 @@ const Navbar = () => {
       </div>
       <div className="flex items-center justify-between  py-4 px-5">
         <div>
-          <img src="./notary-logo.png" alt="" className="h-28 w-auto" />
+          <img src="./notary-logo.png" alt="" className="h-16 md:h-28 w-auto" />
         </div>
         <div className="hidden md:flex h-full justify-end items-center gap-6 text-lg">
           {items.map((item, index) => (

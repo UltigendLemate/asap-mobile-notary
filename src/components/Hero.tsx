@@ -38,7 +38,7 @@ const Hero = () => {
           return (
             <SwiperSlide key={index}>
               <div
-                className="bg-cover bg-bottom bg-no-repeat relative  md:pt-20 h-screen  flex items-center md:justify-center"
+                className="bg-cover bg-bottom bg-no-repeat relative h-screen  flex items-center md:justify-center"
                 style={{ backgroundImage: `url(${item.img})` }}
                 
               >
